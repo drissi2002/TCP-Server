@@ -22,4 +22,14 @@ If we are creating a connection between client and server using TCP then it has 
 1) Create TCP socket.
 2) connect newly created client socket to server.
 
+## Compilation – 
+
+### Server side: 
+> gcc server.c -o server 
+> ./server
+
+### Client side: 
+> gcc client.c -o client 
+> ./client
+
 
