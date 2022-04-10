@@ -26,10 +26,10 @@ If we are creating a connection between client and server using TCP then it has 
 
 ### Server side: 
 > gcc server.c -o server 
-> ./server
+>./server
 
 ### Client side: 
 > gcc client.c -o client 
-> ./client
+>./client
 
 
