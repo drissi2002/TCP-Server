@@ -84,11 +84,21 @@ It puts the server socket in a passive mode, where it waits for the client to ap
 ```bash
 int listen(int sockfd, int backlog);
 ```
-### Approach:
+### Approach  –
 
-- After accepting the connection to the desired port, receive an integer from the client that defines the choice for reading or writing. Choice 1 indicates reader, while choice 2 indicates writer.
-- After successfully receiving data, call for pthread_create to create reader threads and writer threads.
-- After making successful connections to the server-client asks the user for input on the choice variable.
-- After getting the choice from the user, the client then sends this choice to the server to call the reader or writer thread by creating a client thread for the request.
+1) After accepting the connection to the desired port, receive an integer from the client that defines the choice for reading or writing. Choice 1 indicates reader, while choice 2 indicates writer.
+2) After successfully receiving data, call for pthread_create to create reader threads and writer threads.
+3) After making successful connections to the server-client asks the user for input on the choice variable.
+4) After getting the choice from the user, the client then sends this choice to the server to call the reader or writer thread by creating a client thread for the request.
+## Compilation – 
 
+### Server side: 
+> gcc server.c -o server -pthread
+> <br>
+> ./server
+
+### Client side: 
+> gcc client.c -o client -pthread
+> <br>
+> ./client
 
