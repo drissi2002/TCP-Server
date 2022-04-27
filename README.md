@@ -93,12 +93,10 @@ int listen(int sockfd, int backlog);
 ## Compilation – 
 
 ### Server side: 
-> gcc server.c -o server -pthread
-> <br>
-> ./server
+> python server.py
+
 
 ### Client side: 
-> gcc client.c -o client -pthread
-> <br>
-> ./client
+> python client.py
+
 
