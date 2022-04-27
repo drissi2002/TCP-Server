@@ -4,14 +4,13 @@ If we are creating a connection between client and server using TCP then it has 
 
 ## Preview :
 <p align="center" >
-  <img src="https://i.imgur.com/sCYWv50.png"  alt="accessibility text">
+  <img src="https://i.imgur.com/x7pXND4.png"  alt="accessibility text">
 </p>
 
 # 2 . Socket Programming with Multi-threading in Python
 
 ## Prerequisite : [Socket Programming in Python](https://www.geeksforgeeks.org/socket-programming-python/) , [Multi-threading in Python](https://www.geeksforgeeks.org/multithreading-python-set-1/)
-<pre>from _thread import *
-import threading</pre>
+
 ### Socket Programming : 
 It helps us to connect a client to a server. Client is message sender and receiver and server is just a listener that works on data sent by client.
 ### What is a Thread ?  
@@ -21,6 +20,19 @@ Multithreading is a process of executing multiple threads simultaneously in a si
 ### Multi-threading Modules : 
 A _thread module & threading module is used for multi-threading in python, these modules help in synchronization and provide a lock to a thread in use. 
 
+<pre>from _thread import *
+import threading</pre>
+
+A lock object is created by
+
+<pre>from _thread import *
+import threading</pre>
+
+A lock has two states,**“locked”** or **“unlocked”**. It has two basic methods **acquire()** and **release()**. When the state is unlocked **print_lock.acquire()** is used to change state to locked and **print_lock.release()** is used to change state to unlock.
+The function **thread.start_new_thread()** is used to start a new thread and return its identifier. The first argument is the function to call and its second argument is a tuple containing the positional list of arguments.
+Let’s study client-server multithreading socket programming by code- 
+Note:-The code works with python3. 
+**Multi-threaded Server Code**
 
 ## Compilation – 
 
@@ -30,5 +42,17 @@ A _thread module & threading module is used for multi-threading in python, these
 
 ### Client side: 
 > python client.py
+
+### Reference 
+[thread — Multiple threads of control] (https://docs.python.org/2/library/thread.html)
+
+### Copyright
+<i>All rights are reserved for : <b >Drissi houcem eddine - Bouraoui manel - Tayari eya </b> </i>
+<br>
+<i>ThinkTounsi © 2021 - 2022</i>
+
+### Finally 
+Spetial thanks to our mate **BEN MANSOUR** mehdi for helping us 
+
 
 
