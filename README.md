@@ -9,7 +9,7 @@ If we are creating a connection between client and server using TCP then it has 
 
 # 2 . Socket Programming with Multi-threading in Python
 
-## Prerequisite : [Socket Programming in Python](https://www.geeksforgeeks.org/socket-programming-python/) , [Multi-threading in Python](https://www.geeksforgeeks.org/multithreading-python-set-1/)
+## Prerequisite : Socket Programming in Python, Multi-threading in Python
 
 ### Socket Programming : 
 It helps us to connect a client to a server. Client is message sender and receiver and server is just a listener that works on data sent by client.
@@ -45,6 +45,8 @@ Note:-The code works with python3.
 
 ### Reference 
 [thread — Multiple threads of control] (https://docs.python.org/2/library/thread.html)
+[Socket Programming in Python](https://www.geeksforgeeks.org/socket-programming-python/) 
+[Multi-threading in Python](https://www.geeksforgeeks.org/multithreading-python-set-1/)
 
 ### Copyright
 <i>All rights are reserved for : <b >Drissi houcem eddine - Bouraoui manel - Tayari eya </b> </i>
