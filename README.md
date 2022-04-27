@@ -52,7 +52,7 @@ Note:-The code works with python3.
 <i>ThinkTounsi © 2021 - 2022</i>
 
 ### Finally 
-Spetial thanks to our mate **BEN MANSOUR** mehdi for helping us 
+Spetial thanks to our mate **BEN MANSOUR Mehdi** for helping us 
 
 
 
