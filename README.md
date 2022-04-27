@@ -44,7 +44,7 @@ Note:-The code works with python3.
 > python client.py
 
 ### Reference 
-- [thread — Multiple threads of control] (https://docs.python.org/2/library/thread.html)>
+- [thread — Multiple threads of control] (https://docs.python.org/2/library/thread.html)>)
 - [Socket Programming in Python] (https://www.geeksforgeeks.org/socket-programming-python/) 
 - [Multi-threading in Python] (https://www.geeksforgeeks.org/multithreading-python-set-1/)
 
