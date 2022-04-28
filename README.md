@@ -54,12 +54,10 @@ Note:-The code works with python3.
 - [Socket Programming in Python](https://www.geeksforgeeks.org/socket-programming-python/) 
 - [Multi-threading in Python](https://www.geeksforgeeks.org/multithreading-python-set-1/)
 
-
+### Copyrights 
 <i>Spetial thanks to the team : <b >Drissi houcem eddine - Bouraoui manel - Tayari eya </b> </i>
 <br>
 <i>ThinkTounsi © 2021 - 2022</i>
-
-### Copyrights 
 Spetial thanks to our mate **BEN MANSOUR Mehdi** for helping us in this Project  💃
 
 
