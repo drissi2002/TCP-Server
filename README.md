@@ -58,7 +58,7 @@ Note:-The code works with python3.
 <i>Spetial thanks to the team : <b >Drissi houcem eddine - Bouraoui manel - Tayari eya </b> </i>
 <br>
 <i>ThinkTounsi © 2021 - 2022</i><br>
-Spetial thanks to our mate **BEN MANSOUR Mehdi** for helping us in this Project  💃
+<i>Spetial thanks to our mate **BEN MANSOUR Mehdi** for helping us in this Project</i>  💃
 
 
 
