@@ -1,4 +1,4 @@
-1000,600,Negative,600
+1000,500,Negative,600
 2000,300,Positive,0
 3000,950,Positive,1000
 4000,800,Negative,800

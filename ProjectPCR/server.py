@@ -260,10 +260,10 @@ def Retrait(ref,montant):
 
 def Ajout(ref,montant):
     if(Verification_Compte_Existence(ref)):
-        facture=open(facture,"r") 
+        fact=open(facture,"r") 
         # payer facture au cas d'intérêt bancaire
-        ligne_facture=facture.readlines()
-        facture.close()
+        ligne_facture=fact.readlines()
+        fact.close()
         comptes=open(compte,"r")
         ligne_compte=comptes.readlines()
         comptes.close()
@@ -283,23 +283,23 @@ def Ajout(ref,montant):
                     else:
                         ligne_facture[i]="{},{}".format(columns[0],columns[1])
 
-                # Maj du compte apres payer la facture
+                # Maj du compte apres transaction et payement facture
                 for i in range(len(ligne_compte)):
                     columns=ligne_compte[i].split(',')
                     if int(columns[0])==ref:
                         if(columns[2]=="Negative"):
                             if  int(columns[1])>montant:
                                 columns[1]= int(columns[1])-montant
+                                ligne_compte[i]="{},{},{},{}".format(columns[0],columns[1],columns[2],columns[3])
                                 histo.write("\n{},Ajout,{},Success,Negative".format(columns[0],montant)) 
                             else:
                                 histo.write("\n{},Ajout,{},Success,Positive".format(columns[0],montant)) 
                                 columns[1]= montant-int(columns[1])
-                                columns[2]=="Positive"
-                            
+                                ligne_compte[i]="{},{},{},{}".format(columns[0],columns[1],"Positive",columns[3])
                         else:
                             columns[1]= int(columns[1])+montant
                             histo.write("\n{},Ajout,{},Success,Positive".format(columns[0],montant)) 
-                        ligne_compte[i]="{},{},{},{}".format(columns[0],columns[1],columns[2],columns[3])     
+                            ligne_compte[i]="{},{},{},{}".format(columns[0],columns[1],"Positive",columns[3])     
         histo.close()
         open(compte,'w').close()  
         open(facture,'w').close() 

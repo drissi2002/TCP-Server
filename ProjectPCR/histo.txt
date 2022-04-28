@@ -6,3 +6,6 @@
 4000,Ajout,700,Success,Negative
 1000,Retrait,200,Echec,Negative
 1000,Retrait,100,Success,Negative
+
+1000,Ajout,700,Success,Positive
+1000,Retrait,700,Success,Negative
