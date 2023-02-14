@@ -46,7 +46,9 @@ Note:-The code works with python3.
 ## Simulation:
 #### Machine 1 : *Pc Portable* | Machine 2 : *Smartphone Android*
 <p align="center" >
-  <img src="https://i.imgur.com/AVvkH0O.jpg"  alt="accessibility text">
+
+  ![image](https://user-images.githubusercontent.com/84160502/218767185-23d2751b-9c1f-4860-8135-3a64726c2af4.png)
+
 </p>
 
 ### Reference 
@@ -57,7 +59,5 @@ Note:-The code works with python3.
 ### Copyrights 
 <i>Spetial thanks to the team : <b >Drissi houcem eddine - Bouraoui manel - Tayari eya </b> </i>
 <br>
-<i>Spetial thanks to our mate **BEN MANSOUR Mehdi** for helping us in this Project</i>  💃
-
 
 
