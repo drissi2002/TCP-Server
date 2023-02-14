@@ -57,7 +57,7 @@ Note:-The code works with python3.
 - [Multi-threading in Python](https://www.geeksforgeeks.org/multithreading-python-set-1/)
 
 ### Copyrights 
-<i>Spetial thanks to the team : <b >Drissi houcem eddine - Bouraoui manel - Tayari eya </b> </i>
+ <b >Drissi houcem eddine - Bouraoui manel - Tayari eya </b> </i>
 <br>
 
 
